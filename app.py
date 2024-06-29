@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello, World!'
+    return '<a href="clustering">Clustering</a>'
 
 @app.route('/clustering')
 def show_clustering():
